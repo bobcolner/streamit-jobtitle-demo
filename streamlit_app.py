@@ -34,5 +34,5 @@ def show_sim(da: DocumentArray, query: str, model: SentenceTransformer):
 st.title('Job-title Sementic Search Demo')
 model = fetch_model()
 da = fetch_embeddings()
-query = st.text_input('Job-title Query: ', 'Head of Growth')
+query = st.text_input('Job-title Query: ', 'ML Developer')
 show_sim(da, query, model)
